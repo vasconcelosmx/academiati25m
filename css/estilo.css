@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Calibri", Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #e28f2e;
+    position: fixed;
+}
+
+#logo{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+nav{
+    font-size: 19px;
+    height: 70px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 15px;
+    padding: 5px 10px;/* Espaçamento Interno */
+    font-weight: bold;
+    line-height: 3.3;
+    color: white;
+}
+
+nav ul .BOTAO:hover{
+    background-color: rgba(252, 252, 252, 0.2);
+}
+
+#banner{
+    padding-top: 70px;
+}
+
+/* ##### CONTEÚDO ##### */
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+article{
+    text-align: justify;
+}
+
+.fotoshome{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ##### RODAPÉ ##### */
+
+footer{
+    width: 100%;
+    background-color: #e28f2e;
+    text-align: center;
+    color: white;
+    padding: 140px 0px;
+    clear: both;
+}
+
+/* #### SOBRE #### */
+
+.fotosobre{
+    width: 20%;
+    height: 160px;
+    float: left;
+  
+}
+
+.textosobre{
+    width: 80%;
+    height: 160px;
+    margin-top: 25px;
+    float: left;
+}
+
+/* #### CONTATO #### */
+
+#mapa{
+    padding-top: 70px;
+}
+
+.info{
+    width: 50%;
+    height: auto;
+    margin: 50px 0px;
+    float: left;
+}
+
+#formulario{
+    width: 45%;
+    height: auto;
+    margin: 50px 0px;
+    float: right;
+}
+
+#formulario label{
+    font-size: 19px;
+}
+
+#formulario div input{
+    width: 100%;
+    height: 25px;
+    background-color: #fae5cc;
+    border: 1px solid #f2c085;
+}
+
+#formulario textarea{
+    width: 100%;
+    height: 70px;
+    background-color: #fae5cc;
+    border: 1px solid #f2c085;
+    resize: none; /* Serve para desativar o redimensionamento de elementos */
+}
+
+#formulario .BOTAO{
+    width: 100px;
+    height: 30px;
+    color:white;
+    font-size: 14px;
+    float: right;
+    border-radius: 5px;
+    margin: 15px 0px 20px 15px;
+}
+
+#ENVIAR{
+    background-color: darkgreen;
+    border-color: rgb(4, 112, 6);
+}
+
+#LIMPAR{
+    background-color: darkred;
+    border-color: rgb(235, 32, 32);
+}
+
+/* #### PÁGINA DE OBRIGADO #### */
+
+#formulario h2{
+    text-align: center;
+    color: #e28f2e;
+    margin: 40px 0px;
+}
+
+/* #### GALERIA #### */
+
+.galeria{
+    text-align: center;
+}
+
+.galeria img{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
